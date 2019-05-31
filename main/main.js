@@ -1,21 +1,4 @@
-module.exports = function main(inputs) {
-		// write your code here...
-		/* var price = null;
-		var basePrice = 6;
-		var baseDist1 = 2;
-		var baseDist2 = 8;
-		var distance = inputs.distance;
-		var parkTime = inputs.parkTime;
-		if (distance <=baseDist1){
-			price = basePrice + parkTime * 0.25;
-		}
-		else if(distance >baseDist1 && distance <= baseDist2){
-			price = basePrice + (distance - baseDist1) * 0.8 + parkTime * 0.25;
-		}
-		else{
-			price = basePrice + (baseDist2 - baseDist1)* 0.8 + (distance - baseDist2) * 0.8 * 1.5 + parkTime * 0.25;
-		}
-		return Math.round(price); */
+module.exports = function main(inputs) {		
 	var price = null;
 	var distance = inputs.distance;
 	var parkTime = inputs.parkTime;
